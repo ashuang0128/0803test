@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 600px;
+    /* height: 500px; */
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+.container{
+    /* background-color:azure; */
+}
+.title{
+    background-color: dodgerblue;
+    padding: 10px;
+}
+.title p{
+    color: white;
+}

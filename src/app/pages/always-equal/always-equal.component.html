@@ -1,0 +1,30 @@
+
+<div class="card">
+    <div class="container">
+        <div class="row title">
+            <p>等式恆成立</p>
+        </div>
+
+        <div class="row mx-3 mt-3">
+            <div class="col-12">
+                <input type="number" class="form-control" [(ngModel)] = "num_1" (change)="add()">
+            </div>
+        </div>
+        <div class="row mx-3">
+            <p>+</p>
+        </div>
+        <div class="row  mx-3">
+            <div class="col-12">
+                <input type="number" class="form-control" [(ngModel)] = "num_2" (change)="add()">
+            </div>
+        </div>
+        <div class="row mx-3">
+            <p>=</p>
+        </div>
+        <div class="row  mx-3 mb-3">
+            <div class="col-12">
+                <input type="number" class="form-control" [(ngModel)] = "num_3" (change)="add()">
+            </div>
+        </div>
+    </div>
+</div>
